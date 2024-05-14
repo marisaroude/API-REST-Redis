@@ -1,0 +1,19 @@
+{
+  "name": "api-rest-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/api/app.js"
+  },
+  "author": "Marisa Roude",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "react": "^18.2.0",
+    "redis": "^4.6.13"
+  }
+}
